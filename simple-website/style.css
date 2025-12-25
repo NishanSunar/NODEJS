@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* ===== NAVBAR ===== */
+header {
+    background-color: #1e293b;
+    padding: 15px 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #38bdf8;
+}
+
+/* ===== HOME SECTION ===== */
+.home,.about,.services,.contact {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to right, #38bdf8, #0ea5e9);
+    color: white;
+}
+
+.home,.about,.services,.contact h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 12px 30px;
+    background-color: white;
+    color: #0ea5e9;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #e0f2fe;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: #1e293b;
+    color: #cbd5f5;
+    text-align: center;
+    padding: 15px;
+}
